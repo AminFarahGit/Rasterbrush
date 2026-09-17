@@ -2,9 +2,11 @@
 
 A pixel drawing canvas for Unity. Brush, eraser, color picker and flood fill on a fast CPU-side buffer, displayed through a plain SpriteRenderer.
 
+
 <p align="center">
   <img src="docs/drawing_system.gif" alt="Rasterbrush demo" width="600">
 </p>
+
 
 ## Tools
 
