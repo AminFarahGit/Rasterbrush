@@ -2,7 +2,7 @@
 
 A pixel drawing canvas for Unity. Brush, eraser, color picker and flood fill on a fast CPU-side buffer, displayed through a plain SpriteRenderer.
 
-<!-- GIF showcase: drop your gif at docs/showcase.gif -->
+<!-- GIF showcase: drop your gif at docs/drawing_system.gif -->
 <p align="center">
   <img src="docs/showcase.gif" alt="Rasterbrush demo" width="600">
 </p>
@@ -11,10 +11,10 @@ A pixel drawing canvas for Unity. Brush, eraser, color picker and flood fill on 
 
 | | Tool | Description |
 |---|---|---|
-| <img src="docs/icons/brush.png" width="32" alt=""> | **Brush** | Circle-stamped strokes, interpolated between frames so fast movement stays solid |
-| <img src="docs/icons/eraser.png" width="32" alt=""> | **Eraser** | Same stroke pipeline, paints the background color |
-| <img src="docs/icons/colorpicker.png" width="32" alt=""> | **Color picker** | Reads the color under the cursor into the brush |
-| <img src="docs/icons/floodfill.png" width="32" alt=""> | **Flood fill** | Queue-based fill, 4-connected so outlines hold ink |
+| <img src="docs/brush.png" width="32" alt=""> | **Brush** | Circle-stamped strokes, interpolated between frames so fast movement stays solid |
+| <img src="docs/eraser.png" width="32" alt=""> | **Eraser** | Same stroke pipeline, paints the background color |
+| <img src="docs/drop.png" width="32" alt=""> | **Color picker** | Reads the color under the cursor into the brush |
+| <img src="docs/fill.png" width="32" alt=""> | **Flood fill** | Queue-based fill, 4-connected so outlines hold ink |
 
 ## Features
 
