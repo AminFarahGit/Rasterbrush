@@ -14,10 +14,10 @@ A pixel drawing canvas for Unity. Brush, eraser, color picker and flood fill on 
 
 | | Tool | Description |
 |---|---|---|
-| <img src="docs/brush.png" width="32" alt=""> | **Brush** | Circle-stamped strokes, interpolated between frames so fast movement stays solid |
-| <img src="docs/eraser.png" width="32" alt=""> | **Eraser** | Same stroke pipeline, paints the background color |
+| <img src="docs/brush.png" width="32" alt=""> | **Brush** | Circle-stamped strokes |
+| <img src="docs/eraser.png" width="32" alt=""> | **Eraser** | Paints background color |
 | <img src="docs/drop.png" width="32" alt=""> | **Color picker** | Reads the color under the cursor into the brush |
-| <img src="docs/fill.png" width="32" alt=""> | **Flood fill** | Queue-based fill, 4-connected so outlines hold ink |
+| <img src="docs/fill.png" width="32" alt=""> | **Flood fill** | Traverses pixels and fills in enclosed spaces |
 
 ## Features
 
